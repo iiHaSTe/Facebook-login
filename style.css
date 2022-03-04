@@ -18,8 +18,93 @@ body {
   color: #546C9C;
   text-decoration: none;
   font-size: 9pt;
+  font-weight: 400;
 }
 .alert img{
   height: 35px;
   margin: 0px 10px;
+}
+.logo {
+  font-size: 17pt;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  color: #1878F3;
+  padding: 14px 0px;
+  font-family: 'Lato', sans-serif;
+}
+.inputs {
+  display: grid;
+  padding: 0px 13px;
+  margin-top: 3px;
+}
+.inputs input {
+  outline: none;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1.5px solid #D1D1D1;
+  border-color: #EDEDEF #EDEDEF #D1D1D1 #EDEDEF;
+  margin-bottom: 5px;
+  background-color: #F5F6F8;
+  font-weight: 400;
+}
+.inputs button {
+  margin-top: 5px;
+  padding: 13px;
+  font-weight: 600;
+  color: white;
+  background-color: #1878F3;
+  border: none;
+  border-bottom: 1px solid #B4E2FF;
+  border-radius: 5px;
+  font-size: 10pt;
+}
+a {
+  color: #1878F3;
+  font-size: 9pt;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 12px 0px;
+}
+.or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 13px;
+}
+.or hr {
+  width: 100%;
+  height: 1px;
+  background-color: #CECFD3;
+  border: none;
+  border-radius: 500090px;
+}
+.or span {
+  color: #505050;
+  margin: 0px 10px;
+  font-size: 10pt;
+}
+button {
+  border: none;
+  border-radius: 3px;
+  color: snow;
+  font-weight: 600;
+  padding: 12px;
+  text-align: center;
+  font-size: 10pt;
+  text-shadow: 0px -.5px 0px #2A2A2A;
+  background-color: #00A400;
+}
+.lang {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+.lang span {
+  color: #5B6B8F;
+  font-size: 8pt;
+  margin: 3px 0;
 }
